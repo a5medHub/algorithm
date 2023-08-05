@@ -1,3 +1,6 @@
+let nums = [3, 2, 2, 3];
+let val = 3;
+
 let k = 0;
 let arr = [];
 var removeElement = function (nums, val) {
