@@ -4,7 +4,7 @@ let val = 3;
 let k = 0;
 let arr = [];
 // var removeElement = function (nums, val) {
-function removeElement(nums, val){
+function removeElement(nums, val) {
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] != val) {
       k += 1;
@@ -12,4 +12,4 @@ function removeElement(nums, val){
     }
   }
   return k + arr;
-};
+}
