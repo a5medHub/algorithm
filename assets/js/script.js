@@ -1,8 +1,9 @@
-let nums = [3, 2, 2, 3];
-let val = 3;
+// let nums = [3, 2, 2, 3];
+// let val = 3;
 
 let k = 0;
 let arr = [];
+console.log(nums.length);
 // var removeElement = function (nums, val) {
 function removeElement(nums, val) {
   for (let i = 0; i < nums.length; i++) {
